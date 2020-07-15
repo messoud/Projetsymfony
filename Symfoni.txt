@@ -1,0 +1,33 @@
+Créer une application qui permet d'fficher le menu d'un restaurant à l'aide du fromwork Symfony. 
+
+Créer un Controller « Allergen » qui sera dans le bundle AppBundle. 
+Ce Controller aura le préﬁx « /allergen » sur l’ensemble de ses routes
+Créer une Action « index » dans le Controller « User ». 
+• Elle  répondra sur l’url « /user/index ». 
+• Elle retourne le contenu d’un Template Twig.
+	 o Le nom de la méthode de l’action sera envoyé au Template 
+• Cette route portera le nom de « allergen_index » 
+• Elle n’acceptera que la méthode GET.
+
+
+L’entité Plat doit contenir : 
+● Un titre (string) 
+● Une description (text) 
+● Un prix (float) 
+● Un statut (brouillon, en validation, refusé, validé) (integer)
+● Un flag “fait maison” ou non  (boolean) 
+● En option ○ Une image (string) 
+Modifier l’entité Plat :
+● Un auteur 
+● En option
+	○ Une catégorie(entrée, dessert, …) 
+	○ Une liste d’allergènes 
+L’entité Menu doit contenir : 
+● Un titre
+● Un prix 
+● Un ordre d’affichage 
+● Un statut (brouillon, en validation, refusé, validé)
+● Un auteur 
+● En option 
+	○ Un ensemble de plats
+
